@@ -32,7 +32,7 @@ export default class ExcellentHomePage extends Component {
               className="excellent-home-page-buttons"
               style={{ textAlign: 'center', marginTop: 70 }}
             >
-              <a href="/framework/">
+              <a href="https://github.com/orzbox">
                 <Button
                   style={{
                     height: 50,
