@@ -41,7 +41,7 @@ export default class MemberList extends Component {
         name: 'Scarborough_Coral',
         email: 'corallee9797@gmail.com',
         role: 'owner',
-        desc: '各个面都是菜鸟'
+        desc: '全面小白'
       },
       {
         avatar:
@@ -58,6 +58,14 @@ export default class MemberList extends Component {
         email: '暂无',
         role: 'member',
         desc: '前端大佬'
+      },
+      {
+        avatar:
+          'https://avatars2.githubusercontent.com/u/26783995?s=460&v=4',
+        name: 'mo156130',
+        email: '暂无',
+        role: 'member',
+        desc: '数学大师'
       },
     ];
 
