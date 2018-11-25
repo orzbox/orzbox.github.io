@@ -12,8 +12,8 @@ const slides = [
     text: '阿里公益T恤设计大概',
   },
   {
-    url: require('./images/TB1ikP.NVXXXXaYXpXXXXXXXXXX-1000-300.jpg'),
-    text: '淘公仔设计大赛',
+    url: require('./images/Scarborough_Coral-1000-300.jpg'),
+    text: '毛不易',
   },
   {
     url: require('./images/TB1s1_JNVXXXXbhaXXXXXXXXXXX-1000-300.jpg'),

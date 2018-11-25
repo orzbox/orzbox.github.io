@@ -14,7 +14,7 @@ const MENUS = [
     path: '/ice/docs',
   },
   {
-    name: '物料',
+    name: '项目',
     children: [
       {
         name: '组件',
@@ -34,32 +34,32 @@ const MENUS = [
       },
     ],
   },
-  {
-    name: '工具',
-    children: [
-      {
-        name: 'ICEWORKS',
-        path: '/ice/iceworks',
-      },
-      {
-        name: 'Playground',
-        path: '/ice/playground',
-      },
-    ],
-  },
-  {
-    name: '社区',
-    children: [
-      {
-        name: '知乎专栏',
-        path: 'https://zhuanlan.zhihu.com/ice-design',
-      },
-      {
-        name: '万能群',
-        path: require('./images/ice-group.png'),
-      },
-    ],
-  },
+  // {
+  //   name: '工具',
+  //   children: [
+  //     {
+  //       name: 'ICEWORKS',
+  //       path: '/ice/iceworks',
+  //     },
+  //     {
+  //       name: 'Playground',
+  //       path: '/ice/playground',
+  //     },
+  //   ],
+  // },
+  // {
+  //   name: '社区',
+  //   children: [
+  //     {
+  //       name: '知乎专栏',
+  //       path: 'https://zhuanlan.zhihu.com/ice-design',
+  //     },
+  //     {
+  //       name: '万能群',
+  //       path: require('./images/ice-group.png'),
+  //     },
+  //   ],
+  // },
 ];
 
 export default class Header extends Component {

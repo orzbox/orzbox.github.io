@@ -24,9 +24,9 @@ export default class ExcellentHomePage extends Component {
         <div className="excellent-home-page-background" />
         <div className="excellent-home-page-content-wrapper">
           <div className="excellent-home-page-content">
-            <h2 className="title">新淘宝 新体验</h2>
+            <h2 className="title">orzbox</h2>
             <p className="subtitle">
-              新的开放能力赋能商家、ISV，使用手机淘宝帮助用户获得更出色的使用体验
+              用你的手，让代码变的神奇！让所有人膜拜！
             </p>
             <div
               className="excellent-home-page-buttons"
@@ -44,7 +44,7 @@ export default class ExcellentHomePage extends Component {
                   type="primary"
                   size="large"
                 >
-                  快速上手
+                  加入我们
                   <div
                     style={{
                       marginLeft: '5px',

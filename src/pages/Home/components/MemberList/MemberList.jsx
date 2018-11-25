@@ -72,7 +72,7 @@ export default class MemberList extends Component {
     return (
       <IceContainer style={styles.container}>
         <ContainerTitle
-          title="项目成员"
+          title="团队成员"
           buttonText="添加成员"
           style={styles.title}
         />
