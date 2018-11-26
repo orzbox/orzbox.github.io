@@ -83,7 +83,7 @@ export default class Header extends Component {
         >
           {menu.children.map((subMenu, index) => {
             return (
-              <a href="#" className="custom-sub-menu" key={index}>
+              <a href={"/#"+subMenu.path} className="custom-sub-menu" key={index}>
                 {subMenu.name}
               </a>
             );
@@ -100,7 +100,7 @@ export default class Header extends Component {
       }
       return (
         <Menu.Item key={menu.path}>
-          <a href={menu.path}>{menu.name}</a>
+          <a href={"/#"+menu.path}>{menu.name}</a>
         </Menu.Item>
       );
     });

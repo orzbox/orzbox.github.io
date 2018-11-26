@@ -3,7 +3,7 @@ import IceContainer from '@icedesign/container';
 import { Table } from '@icedesign/base';
 import ContainerTitle from './ContainerTitle';
 
-import MembersData from "../../../../config/member";
+import {MembersData} from "../../../../config";
 
 export default class MemberList extends Component {
   static displayName = 'MemberList';
@@ -11,7 +11,7 @@ export default class MemberList extends Component {
   static propTypes = {};
 
   static defaultProps = {};
-
+  
   constructor(props) {
     super(props);
     this.state = {};
