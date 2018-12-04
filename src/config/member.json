@@ -47,6 +47,22 @@
       "role": "member",
       "desc": "健身大师",
       "github":"https://github.com/Empty-Dream"
+    },
+    {
+      "avatar":"https://avatars1.githubusercontent.com/u/31469866?s=460&v=4",
+      "name": "Th3Crave",
+      "email": "暂无",
+      "role": "member",
+      "desc": "颜值代表",
+      "github":"https://github.com/Th3Crave"
+    },
+    {
+      "avatar":"https://avatars2.githubusercontent.com/u/23181922?s=460&v=4",
+      "name": "C0d3r1iu",
+      "email": "暂无",
+      "role": "member",
+      "desc": "网络天使",
+      "github":"https://github.com/C0der1iu"
     }
   ]
 }
