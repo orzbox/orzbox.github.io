@@ -1,76 +1,100 @@
 {
-"MemberList" : [
+  "MemberList": [
     {
-      "avatar":"https://avatars2.githubusercontent.com/u/26180429?s=460&v=4",
+      "avatar": "https://avatars2.githubusercontent.com/u/26180429?s=460&v=4",
       "name": "Scarborough_Coral",
       "email": "corallee9797@gmail.com",
       "role": "owner",
       "desc": "全面小白",
-      "github":"https://github.com/ScarboroughCoral"
+      "github": "https://github.com/ScarboroughCoral"
     },
     {
-      "avatar":"https://avatars2.githubusercontent.com/u/26338665?s=460&v=4",
+      "avatar": "https://avatars2.githubusercontent.com/u/29836408?s=460&v=4",
+      "name": "Cavs Zhouyou",
+      "email": "zhouyou.world@outlook.com",
+      "role": "member",
+      "desc": "前端之神",
+      "github": "https://github.com/CavsZhouyou"
+    },
+    {
+      "avatar": "https://avatars2.githubusercontent.com/u/12205296?s=460&v=4",
+      "name": "XBlame",
+      "email": "暂无",
+      "role": "member",
+      "desc": "Linux 专家",
+      "github": "https://github.com/Blameying"
+    },
+    {
+      "avatar": "https://avatars2.githubusercontent.com/u/26338665?s=460&v=4",
       "name": "DearSummer",
       "email": "暂无",
       "role": "member",
       "desc": "游戏大神",
-      "github":"https://github.com/DearSummer"
+      "github": "https://github.com/DearSummer"
     },
     {
-      "avatar":"https://avatars1.githubusercontent.com/u/35656014?s=460&v=4",
+      "avatar": "https://avatars1.githubusercontent.com/u/35656014?s=460&v=4",
       "name": "evilerSS",
       "email": "暂无",
       "role": "member",
       "desc": "前端大佬",
-      "github":"https://github.com/evilerSS"
+      "github": "https://github.com/evilerSS"
     },
     {
-      "avatar":"https://avatars2.githubusercontent.com/u/26783995?s=460&v=4",
+      "avatar": "https://avatars2.githubusercontent.com/u/26783995?s=460&v=4",
       "name": "mo156130",
       "email": "暂无",
       "role": "member",
       "desc": "数学大师",
-      "github":"https://github.com/mo156130"
+      "github": "https://github.com/mo156130"
     },
     {
-      "avatar":"https://avatars0.githubusercontent.com/u/38276808?s=460&v=4",
+      "avatar": "https://avatars0.githubusercontent.com/u/38276808?s=460&v=4",
       "name": "161110527",
       "email": "暂无",
       "role": "member",
       "desc": "神秘恶魔",
-      "github":"https://github.com/161110527"
+      "github": "https://github.com/161110527"
     },
     {
-      "avatar":"https://avatars3.githubusercontent.com/u/34826177?s=460&v=4",
+      "avatar": "https://avatars3.githubusercontent.com/u/34826177?s=460&v=4",
       "name": "Empty-Dream",
       "email": "暂无",
       "role": "member",
       "desc": "健身大师",
-      "github":"https://github.com/Empty-Dream"
+      "github": "https://github.com/Empty-Dream"
     },
     {
-      "avatar":"https://avatars1.githubusercontent.com/u/31469866?s=460&v=4",
+      "avatar": "https://avatars1.githubusercontent.com/u/31469866?s=460&v=4",
       "name": "Th3Crave",
       "email": "暂无",
       "role": "member",
       "desc": "颜值代表",
-      "github":"https://github.com/Th3Crave"
+      "github": "https://github.com/Th3Crave"
     },
     {
-      "avatar":"https://avatars2.githubusercontent.com/u/23181922?s=460&v=4",
+      "avatar": "https://avatars2.githubusercontent.com/u/23181922?s=460&v=4",
       "name": "C0d3r1iu",
       "email": "暂无",
       "role": "member",
       "desc": "网络天使",
-      "github":"https://github.com/C0der1iu"
+      "github": "https://github.com/C0der1iu"
     },
     {
-      "avatar":"https://avatars1.githubusercontent.com/u/38395934?s=460&v=4",
+      "avatar": "https://avatars3.githubusercontent.com/u/28696863?s=460&v=4",
+      "name": "Cola_Le",
+      "email": "暂无",
+      "role": "member",
+      "desc": "IoT 大师",
+      "github": "https://github.com/LLLLL72"
+    },
+    {
+      "avatar": "https://avatars1.githubusercontent.com/u/38395934?s=460&v=4",
       "name": "dddlovelll",
       "email": "暂无",
       "role": "member",
       "desc": "情商王子",
-      "github":"https://github.com/dddlovelll"
+      "github": "https://github.com/dddlovelll"
     }
   ]
 }
