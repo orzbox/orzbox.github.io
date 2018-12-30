@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button } from '@icedesign/base';
 import './ExcellentHomePage.scss';
+import Qrcode from '@icedesign/qrcode';
 
 export default class ExcellentHomePage extends Component {
   static displayName = 'ExcellentHomePage';
@@ -24,7 +25,14 @@ export default class ExcellentHomePage extends Component {
         <div className="excellent-home-page-background" />
         <div className="excellent-home-page-content-wrapper">
           <div className="excellent-home-page-content">
-            <h2 className="title">orzbox</h2>
+            <h2 className="title">orzbox
+              <Qrcode
+                triggerSize="xxl"
+                value="http://qm.qq.com/cgi-bin/qm/qr?k=x1gxk9lCSM8d0ZzRG3f3xFwcbyJOE5qk"
+                text="QQ群:783835145"
+                align="left"
+                preventDefault="true"
+              /></h2>
             <p className="subtitle">
               用你的手，让代码变的神奇！让所有人膜拜！
             </p>
@@ -32,19 +40,19 @@ export default class ExcellentHomePage extends Component {
               className="excellent-home-page-buttons"
               style={{ textAlign: 'center', marginTop: 70 }}
             >
-              <a href="https://github.com/orzbox">
+              <a href="https://orzbox.github.io/our-tech">
                 <Button
                   style={{
                     height: 50,
                     padding: '0 58px',
                     fontSize: 16,
                     marginBottom: '20px',
-                    background: '#00CE72',
+                    background: '#13abc4',
                   }}
                   type="primary"
                   size="large"
                 >
-                  加入我们
+                  技术杂货店
                   <div
                     style={{
                       marginLeft: '5px',
@@ -57,6 +65,34 @@ export default class ExcellentHomePage extends Component {
                     }}
                   />
                 </Button>
+              </a>
+              <a href="https://github.com/orzbox">
+                <Button
+                  style={{
+                    height: 50,
+                    padding: '0 58px',
+                    fontSize: 16,
+                    marginLeft: '10px',
+                    marginBottom: '20px',
+                    background: '#00CE72',
+                  }}
+                  type="primary"
+                  size="large"
+                >
+                  Github
+                  <div
+                    style={{
+                      marginLeft: '5px',
+                      display: 'inline-block',
+                      width: '10px',
+                      height: '10px',
+                      borderRight: '1px solid #fff',
+                      borderBottom: '1px solid #fff',
+                      transform: 'rotate(-45deg)',
+                    }}
+                  />
+                </Button>
+
               </a>
             </div>
 

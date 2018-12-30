@@ -1,37 +1,40 @@
 import React, { Component } from 'react';
 import { Balloon, Icon } from '@icedesign/base';
 import Menu from '@icedesign/menu';
+import Qrcode from '@icedesign/qrcode';
 import Logo from '../Logo';
 import './Header.scss';
 
 const MENUS = [
-  {
-    name: '设计',
-    path: '/ice/docs/ice-design',
-  },
-  {
-    name: '文档',
-    path: '/ice/docs',
-  },
+  // {
+  //   name: '设计',
+  //   path: '/ice/docs/ice-design',
+  //   ifOhter: false
+  // },
+  // {
+  //   name: '文档',
+  //   path: '/ice/docs',
+  // },
   {
     name: '项目',
     children: [
       {
-        name: '组件',
-        path: '/ice/component/button',
+        name: '团队博客',
+        path: 'https://github.com/orzbox/our-tech',
+        ifOther: true
       },
-      {
-        name: '区块',
-        path: '/ice/block',
-      },
-      {
-        name: '布局',
-        path: '/ice/layout',
-      },
-      {
-        name: '模板',
-        path: '/ice/scaffold',
-      },
+      // {
+      //   name: '区块',
+      //   path: '/ice/block',
+      // },
+      // {
+      //   name: '布局',
+      //   path: '/ice/layout',
+      // },
+      // {
+      //   name: '模板',
+      //   path: '/ice/scaffold',
+      // },
     ],
   },
   // {
@@ -47,19 +50,21 @@ const MENUS = [
   //     },
   //   ],
   // },
-  // {
-  //   name: '社区',
-  //   children: [
-  //     {
-  //       name: '知乎专栏',
-  //       path: 'https://zhuanlan.zhihu.com/ice-design',
-  //     },
-  //     {
-  //       name: '万能群',
-  //       path: require('./images/ice-group.png'),
-  //     },
-  //   ],
-  // },
+  {
+    name: '社区',
+    children: [
+      {
+        name: '团队博客',
+        path: 'https://orzbox.github.io/our-tech',
+        ifOther: true
+      },
+      {
+        name: '万能群',
+        path: 'http://qm.qq.com/cgi-bin/qm/qr?k=x1gxk9lCSM8d0ZzRG3f3xFwcbyJOE5qk',
+        ifOther: true
+      },
+    ],
+  },
 ];
 
 export default class Header extends Component {
@@ -83,7 +88,7 @@ export default class Header extends Component {
         >
           {menu.children.map((subMenu, index) => {
             return (
-              <a href={"/#"+subMenu.path} className="custom-sub-menu" key={index}>
+              <a href={subMenu.ifOther ? subMenu.path : "/#" + subMenu.path} className="custom-sub-menu" key={index}>
                 {subMenu.name}
               </a>
             );
@@ -100,7 +105,7 @@ export default class Header extends Component {
       }
       return (
         <Menu.Item key={menu.path}>
-          <a href={"/#"+menu.path}>{menu.name}</a>
+          <a href={menu.ifOther ? menu.path : "/#" + menu.path}>{menu.name}</a>
         </Menu.Item>
       );
     });
@@ -111,7 +116,7 @@ export default class Header extends Component {
       <div className="header-container">
         <div className="header-content">
           <Logo isDark />
-          <div className="header-navbar">
+          <div className="header-navbar" style={{ paddingRight: "50px" }}>
             <Menu className="header-navbar-menu" mode="horizontal">
               {this.renderMenuItem()}
             </Menu>
