@@ -76,6 +76,7 @@ const styles = {
     border: '1px solid #eee',
     background: '#eee',
     borderRadius: '50px',
+    verticalAlign: 'middle'
   },
   name: {
     marginLeft: '15px',
